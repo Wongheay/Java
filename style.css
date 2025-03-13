@@ -1,12 +1,12 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 header {
-  background-color: #484848;
+  margin: 10px;
+  background-color: #2e2f35;
   padding: 15px;
-  margin-top: 50px;
 }
 .logo {
   display: inline-block;
@@ -64,6 +64,25 @@ li a:hover {
   font-size: 20px;
 }
 .video {
-  margin-top: 30px;
-  margin-left: 100px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+#btn {
+  background-color: #2e2f35;
+}
+.active {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  background-color: #12bece;
+  padding: 9px;
+  margin-top: 3%;
+  margin-left: 5%;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.active:hover {
+  background-color: #2e2f35;
+  color: #12bece;
+  transition: 5ms;
 }
